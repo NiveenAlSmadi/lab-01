@@ -1,4 +1,4 @@
-@media (min-width: 480px){
+@media  (min-width: 480px) and (max-width: 767px){
     .a {
       background-color: rgb(255, 189, 233);
         grid-row: 1/2;
