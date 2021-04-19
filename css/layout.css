@@ -1,7 +1,7 @@
 @media (min-width: 480px) 
 {section {
-    margin-top: 35px;
-    margin-bottom: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     color:black;
 
 
@@ -9,8 +9,8 @@
  @media (min-width: 768px){
     section{
         color:black;
-        margin-top: 35px;
-        margin-bottom: 35px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     
     }
  }}
