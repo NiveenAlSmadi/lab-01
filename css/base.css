@@ -6,6 +6,7 @@ body {
     font-size: 100%;
     font: italic;
     display: block;
+    box-sizing: border-box;
 }
 p {
     text-align: center;
