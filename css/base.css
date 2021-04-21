@@ -5,12 +5,10 @@ body {
     border: 0;
     font-size: 100%;
     font: italic;
-    display: block;
+    display:grid;
     box-sizing: border-box;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
-  p{
-      text-align: center;
-  }
+p {
+    text-align: center;
+}
+

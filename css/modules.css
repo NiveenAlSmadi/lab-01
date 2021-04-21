@@ -1,146 +1,110 @@
-/* mobile view  */
-@media  (min-width: 480px) { 
-  *{
-    border: 1px solid rgb(39, 35, 35);
-  }
-    .a {
-      background-color: rgb(255, 189, 233);
-      width: 100%;
-      height: 75px;
-      line-height: 75px;
-      
-    }
-   .b{
-    background-color: rgb(169, 146, 250);
-    width: 100%;
-    height: 150px;
-    line-height: 133px;
-
-   }
-   .c{
-    background-color: rgb(178, 252, 215);
-    width: 100%;
-    height: 125px;
-    line-height: 133px;
-   }
-   .d{
-    background-color: rgb(240, 185, 149);
-    width: 100%;
-    height: 125px;
-    line-height: 133px;
-
-   }
-   .e{
-    background-color: rgb(125, 158, 248);
-    width: 50%;
-    height: 250px;
-    float: left;
-    line-height: 233px;
-   }
-   .f{
-    background-color: rgb(236, 248, 125);
-    width: 50%;
-    height: 250px;
-    float: left;
-    line-height: 233px;
-
-   } 
-   .g{ background-color: rgb(245, 149, 149);
-    width: 50%;
-    height: 250px;
-    float: left;
-   line-height: 233px;}
-  .h{
-    background-color: rgb(92, 151, 115);
-    
-    height: 250px;
-    float: left;
-    width: 50%;
-
-   line-height: 233px; 
-  }
-  .i{
-    background-color: rgb(255, 255, 255);
-   width: 100%;   
-   height: 80px;
-    line-height: 75px;
-  }
-}
-/* Desktop view  */
-
-@media(min-width: 768px){
-  *{
-    border: 1px solid rgb(56, 53, 53);
-  }
+@media screen and (min-width:767px) {
   .a {
-    background-color: rgb(250, 120, 207);
-    width: 100%;
-    height: 100px;
-    line-height: 75px;
-    
+    background-color: rgb(255, 189, 233);
+      grid-column: 1/6;
+      line-height: 75px;
   }
  .b{
-  float: left;
-  background-color: rgb(94, 80, 145);
-  width: 20%;
-  height: 600px;
+  background-color: rgb(169, 146, 250);
+  grid-column: 1/2;
+  grid-row: 2/5;
   line-height: 133px;
 
  }
  .c{
-  float: left;
-  background-color: rgb(92, 155, 123);
-  width: 40%;
-  height: 200px;
+  background-color: rgb(178, 252, 215);
+  grid-column: 2/4;
+  grid-row: 2/3;
   line-height: 133px;
  }
  .d{
-  float: left;
-  background-color: rgb(209, 149, 109);
-  width: 40%;
-  height: 200px;
+  background-color: rgb(240, 185, 149);
+  grid-column: 4/6;
+  grid-row: 2/3;
   line-height: 133px;
 
  }
  .e{
-   float: left;
-  background-color: rgb(72, 115, 233);
-  width: 20%;
-  height: 250px;
-  float: left;
+  background-color: rgb(125, 158, 248);
+  grid-column: 2/3;
+  grid-row: 3/4;
   line-height: 233px;
  }
  .f{
-  float: left;
-  background-color: rgb(232, 248, 87);
-  width: 20%;
-  height: 250px;
-  float: left;
+  background-color: rgb(236, 248, 125);
+  grid-column:3/4;
+  grid-row: 3/4;
   line-height: 233px;
-
- } 
- .g{ 
-   float: left;
-  background-color: rgb(233, 89, 89);
-  width: 20%;
-  height: 250px;
-  float: left;
- line-height: 233px;}
+ 
+}
+.g{ background-color: rgb(243, 140, 140);
+grid-column:4/5;
+grid-row: 3/4;
+line-height: 233px;}
 .h{
-
-  background-color: rgb(26, 61, 40);
-
-  height: 250px;
-  float: left;
-  width: 20%;
-
- line-height: 233px; 
+background-color: rgb(92, 151, 115);
+grid-column:5/6;
+grid-row: 3/4; 
+line-height: 233px; 
 }
 .i{
-  display: inline-block;
-  background-color: rgb(79, 80, 80);
-  width: 80%;  
-  height: 150px;
-  line-height: 75px;
+background-color: rgb(172, 196, 181);
+grid-column: 2/6;
+  grid-row: 4/5;
+line-height: 75px;
+}}
+
+/* desktop view  */
+@media screen and (max-width: 768px) {
+.a {
+  background-color: rgb(255, 189, 233);
+    grid-row: 1/2;
+    grid-column: 1/3;
+    line-height: 75px;
 }
+.b{
+background-color: rgb(169, 146, 250);
+grid-column: 1/3;
+line-height: 133px;
+
 }
+.c{
+background-color: rgb(178, 252, 215);
+grid-column: 1/3;
+line-height: 133px;
+}
+.d{
+background-color: rgb(240, 185, 149);
+grid-column: 1/3;
+line-height: 133px;
+
+}
+.e{
+background-color: rgb(125, 158, 248);
+grid-column: 1/2;
+grid-row: 5/6;
+line-height: 233px;
+}
+.f{
+background-color: rgb(236, 248, 125);
+grid-column: 2/3;
+grid-row: 5/6;
+line-height: 233px;
+
+
+}
+.g{ background-color: rgb(243, 140, 140);
+grid-column: 1/2;
+grid-row: 7/6;
+line-height: 233px;}
+.h{
+background-color: rgb(92, 151, 115);
+grid-column: 2/3;
+grid-row: 7/6; 
+line-height: 233px; 
+}
+.i{
+background-color: rgb(172, 196, 181);
+grid-column: 1/3;
+line-height: 75px;
+}}
