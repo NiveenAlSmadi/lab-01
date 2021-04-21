@@ -15,4 +15,13 @@
         display: grid;
         grid-template-rows: 960px 200px 380px 380px 190px 190px 760px;
 }}    
-    
+
+@media (max-width: 700px){
+    section{
+        color:black;
+        font-size: 35px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        display: grid;
+        grid-template-rows: 960px 200px 380px 380px 190px 190px 760px;
+}} 
